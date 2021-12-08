@@ -1,0 +1,140 @@
+/*media query*/
+@media screen and (min-width: 480px) {
+  .hero_wrap .list {
+    padding: 3rem 0 3rem;
+    width: 70%;
+  }
+  .section_hero {
+    background-position: 55% 100%;
+    background-size: 200% auto;
+  }
+}
+@media screen and (min-width: 576px) {
+  .hero_wrap .list {
+    width: 60%;
+  }
+  .required_box {
+    flex-basis: 33%;
+  }
+}
+@media screen and (min-width: 768px) {
+  /*.... section hero.....*/
+  .hero_wrap {
+    width: 70%;
+  }
+  .section_hero {
+    padding: 3rem 0;
+  }
+  .hero_wrap .list {
+    width: 100%;
+  }
+  .section_hero .btn {
+    width: 100%;
+    font-size: 2.5rem;
+  }
+  .section_hero .btn span {
+    font-size: 1.375rem;
+  }
+  /*.... section two.....*/
+  .sectionTwo {
+    background-image: url(../images/bg2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: var(--dark);
+    background-size: 150%;
+  }
+  .sectionTwo_box {
+    flex-basis: 52%;
+  }
+  .sectionTwo_box .btn {
+    width: 100%;
+  }
+  /*.... section three.....*/
+  .sectionThree {
+    padding: 4rem 0 10rem;
+  }
+  /*.... section required.....*/
+  .required2 .required_wrap {
+    width: 80%;
+  }
+  .required2 img.bottle {
+    max-width: 260px;
+    position: absolute;
+    bottom: -90px;
+    right: 0;
+  }
+  /*.... section four.....*/
+  .sectionFour {
+    background-image: url(../images/bg4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: var(--dark);
+    background-size: 150%;
+  }
+  .sectionFour_wrap {
+    margin-bottom: 10rem;
+  }
+  .sectionFour_box {
+    flex-basis: 50%;
+  }
+  .sectionFour_box .btn {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 992px) {
+  .required_box {
+    flex-basis: 20%;
+  }
+  .required2::after {
+    content: "";
+    position: absolute;
+    right: -70px;
+    top: -130px;
+    background: url(../images/bottle.png) no-repeat;
+    width: 390px;
+    height: 500px;
+  }
+  .required2 img.bottle {
+    max-width: 100%;
+    right: -180px;
+    display: none;
+  }
+  .sectionTwo_box .list2 li::before {
+    top: 10px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .section_hero {
+    background-size: 150%;
+    padding: 3rem 0 7rem;
+  }
+  .hero_wrap img.logo {
+    margin-bottom: 3rem;
+    max-width: 100%;
+  }
+  .sectionTwo {
+    padding: 11rem 0 6rem;
+  }
+  .sectionTwo_box .list2 {
+    padding: 2rem 0 5rem;
+  }
+  .required2 {
+    background-position: center 101%;
+  }
+  /*.... section sevevn.....*/
+  .sectionSeven {
+    padding: 9rem 0 3rem;
+  }
+  /*.... section eight.....*/
+  .sectionEight {
+    padding: 6rem 0 5rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .section_header::before,
+  .section_header::after {
+    width: 12%;
+  }
+}
+@media screen and (min-width: 1920px) {
+}
